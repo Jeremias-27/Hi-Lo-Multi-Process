@@ -34,13 +34,6 @@ This project reinforces core systems programming concepts, including:
 
 -Platform: Linux / UNIX-like systems
 
-## 📂 Structure
-├── hi_lo_process.c
-
-├── Makefile
-
-└── README.md
-
 ## 🚀 Getting Started
 ✅ Prerequisites
 
