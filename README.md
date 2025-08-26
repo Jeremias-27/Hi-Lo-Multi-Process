@@ -6,56 +6,61 @@ This project implements a Hi-Lo number guessing game using UNIX processes. The g
 
 This project reinforces core systems programming concepts, including:
 
-Process creation and management
+-Process creation and management
 
-Signal handling
+-Signal handling
 
-IPC via file I/O
+-IPC via file I/O
 
-Resource cleanup and synchronization
+-Resource cleanup and synchronization
 
 ## 🛠 Features
 
-Multi-process architecture using fork()
+-Multi-process architecture using fork()
 
-Signal-based communication for process synchronization
+-Signal-based communication for process synchronization
 
-File I/O for shared state between processes
+-File I/O for shared state between processes
 
-Configurable guessing range and difficulty level
+-Configurable guessing range and difficulty level
 
 ## ⚙️ Technologies
 
-Language: C
+-Language: C
 
-Concurrency: UNIX Processes
+-Concurrency: UNIX Processes
 
-IPC: Signals, file I/O
+-IPC: Signals, file I/O
 
-Platform: Linux / UNIX-like systems
+-Platform: Linux / UNIX-like systems
 
 ## 📂 Structure
 ├── hi_lo_process.c
+
 ├── Makefile
+
 └── README.md
 
 ## 🚀 Getting Started
 ✅ Prerequisites
 
-GCC compiler
+-GCC compiler
 
-Linux/UNIX environment
+-Linux/UNIX environment
 
 ## 🔧 Build and Run
 git clone https://github.com/your-username/hi-lo-multi-process-game.git
+
 cd hi-lo-multi-process-game
+
 make
+
 ./hi_lo_process
 
 ## 📚 Learning Outcomes
 
-Understanding process-based concurrency
+-Understanding process-based concurrency
 
-Implementing IPC with signals and files
+-Implementing IPC with signals and files
 
-Handling synchronization in multi-process systems
+-Handling synchronization in multi-process systems
