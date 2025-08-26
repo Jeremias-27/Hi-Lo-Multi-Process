@@ -1,6 +1,6 @@
-Hi-Lo Multi-Process Game
-📌 Overview
+#Hi-Lo Multi-Process Game
 
+##📌 Overview
 This project implements a Hi-Lo number guessing game using UNIX processes. The game demonstrates concurrent gameplay by spawning multiple child processes that interact with a shared game state through file-based inter-process communication (IPC) and signals for synchronization.
 
 This project reinforces core systems programming concepts, including:
@@ -13,7 +13,7 @@ IPC via file I/O
 
 Resource cleanup and synchronization
 
-🛠 Features
+##🛠 Features
 
 Multi-process architecture using fork()
 
@@ -23,7 +23,7 @@ File I/O for shared state between processes
 
 Configurable guessing range and difficulty level
 
-⚙️ Technologies
+##⚙️ Technologies
 
 Language: C
 
@@ -33,25 +33,25 @@ IPC: Signals, file I/O
 
 Platform: Linux / UNIX-like systems
 
-📂 Structure
+##📂 Structure
 ├── hi_lo_process.c
 ├── Makefile
 └── README.md
 
-🚀 Getting Started
+##🚀 Getting Started
 ✅ Prerequisites
 
 GCC compiler
 
 Linux/UNIX environment
 
-🔧 Build and Run
+##🔧 Build and Run
 git clone https://github.com/your-username/hi-lo-multi-process-game.git
 cd hi-lo-multi-process-game
 make
 ./hi_lo_process
 
-📚 Learning Outcomes
+##📚 Learning Outcomes
 
 Understanding process-based concurrency
 
